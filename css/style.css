@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&family=Outfit&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 320px;
+    border-radius: 19px;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0px 0px 15px hsl(0, 0%, 0%, 0.3);
+}
+
+.card > img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.title {
+   text-align: center;
+   margin: 20px 0;
+   font-size: 25px;
+   color: hsl(218, 44%, 22%);
+}
+
+.card > p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+
+
+
